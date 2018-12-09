@@ -17,6 +17,7 @@ int main()
 	std::cin >> input;
 	if (input <= 0) {
 		std::cout << "Unavaliable data size" << std::endl;
+		return 0;
 	}
 	int *num = new int[input];
 	for (int i = 0; i < input; ++i) {
